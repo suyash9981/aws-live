@@ -10,7 +10,7 @@
 
 		<body bgcolor="lightgrey">
 			
-			<img src="{{ url_for('data', filename='img.jpg') }}"></img>
+			<img src="{{ ('data', filename='img.jpg') }}"></img>
 		
 			<form action="/addemp" autocomplete="on" method = "POST" enctype="multipart/form-data">
 
